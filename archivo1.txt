@@ -11,3 +11,12 @@ averiguar cómo hacer lo mismo desde una interfaz gráfica. Sin embargo, la rela
 necesariamente cierta. Así mismo, la decisión de qué cliente gráfico utilizar depende totalmente de
 tu gusto, pero todos los usuarios tendrán las herramientas de línea de comandos instaladas y
 disponibles.
+.
+.
+.
+Ignorar Archivos
+A veces, tendrás algún tipo de archivo que no quieres que Git añada automáticamente o más aun,
+que ni siquiera quieras que aparezca como no rastreado. Este suele ser el caso de archivos
+generados automáticamente como trazas o archivos creados por tu sistema de compilación. En
+estos casos, puedes crear un archivo llamado .gitignore que liste patrones a considerar. Este es un
+ejemplo de un archivo .gitignore:
